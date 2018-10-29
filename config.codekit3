@@ -83,13 +83,6 @@
 		"oAP": "/template.yml",
 		"oF": 0
 		},
-	"/webpage/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/webpage/index.html",
-		"oF": 0
-		},
 	"/webpage/stylesheets/master.css": {
 		"aP": 1,
 		"bl": 0,
