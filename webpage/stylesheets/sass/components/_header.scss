@@ -1,4 +1,4 @@
-// *** HEADER PARTIAL ***
+// *** HEADER PARTIAL **************************
 
 header {
   width: 100vw;
@@ -16,7 +16,7 @@ header {
   justify-content: space-between;
 
 
-  // *** Header - LEFT SIDE ***
+  // *** Header - LEFT SIDE **************************
 
 
 #header-content-left {
@@ -43,13 +43,12 @@ li {
 } //Header-content-left end tag
 
 
-// *** Header - RIGHT SIDE ***
+// *** Header - RIGHT SIDE **************************
 
 #header-content-right {
 width: 100px;
 height: 100%;
 
-
 }  // header-content-right end tag
-} //Header-content tag
-}  // Header Tag
+}  // header-content end tag
+}  // header end tag
