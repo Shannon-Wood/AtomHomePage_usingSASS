@@ -52,31 +52,35 @@ header {
 
 // *** Header - RIGHT SIDE **************************
 
-#header-content-right {
-height: 100%;
-display: flex;
-align-items: center;
+        #header-content-right {
+          height: 100%;
+          display: flex;
+          align-items: center;
 
-ul {
-li {
-  @extend %fake-link;
-  transition: $hover-transition-time;
+            ul {
+              width: 67px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
 
-&:hover {
-  transition: $hover-transition-time;
-  color: $hover-color;
-}  // hover end tag
+                li {
+                  @extend %fake-link;
+                  transition: $hover-transition-time;
 
-&::before {
-  position: relative;
-  display: inline-block;
-  top: 0;
-  left: 0;
-  width: 30px;
-  height: 30px;
-  content: "\f036";
-  background-color: #f00;
-}
+                &:hover {
+                  transition: $hover-transition-time;
+                  color: $hover-color;
+                }  // hover end tag
+
+                img {
+                  position: relative;
+                  top: 2px;
+                }
+                svg:hover path {
+                    fill: #b8b8b8;
+                  }
+
+
 
 }  // header-content-right LI end tag
 }  // header-content-right UL end tag

@@ -138,6 +138,13 @@ header #header-content #header-content-right {
   align-items: center;
 }
 
+header #header-content #header-content-right ul {
+  width: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header #header-content #header-content-right ul li {
   transition: 0.25s;
 }
@@ -147,15 +154,13 @@ header #header-content #header-content-right ul li:hover {
   color: #81bf8c;
 }
 
-header #header-content #header-content-right ul li::before {
+header #header-content #header-content-right ul li img {
   position: relative;
-  display: inline-block;
-  top: 0;
-  left: 0;
-  width: 30px;
-  height: 30px;
-  content: "\f036";
-  background-color: #f00;
+  top: 2px;
+}
+
+header #header-content #header-content-right ul li svg:hover path {
+  fill: #b8b8b8;
 }
 
 body {
