@@ -5,6 +5,8 @@ header {
   height: 33px;
   padding: 5px 0;
 
+  font-size: .88em;
+
   background-color: #584b4f;
 
   display: flex;
@@ -19,17 +21,24 @@ header {
 
 
       #header-content-left {
-        width: 400px;
         height: 100%;
+        display: flex;
+        align-items: center;
 
         ul {
           display: flex;
           justify-content: space-between;
 
+
           li {
             padding: 8px;
             @extend %fake-link;
-            color: white;
+            transition: .3s;
+
+            &:hover {
+              transition: .3s;
+              color: #81bf8c;
+            }
 
           } // LI end tag
         }  // UL end tag
