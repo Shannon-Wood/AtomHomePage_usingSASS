@@ -7,4 +7,27 @@ header {
 
   background-color: #584b4f;
 
-}
+  display: flex;
+  justify-content: center;
+
+  #header-content{
+    width: 860px;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+
+      #header-content-left {
+        width: 400px;
+        height: 100%;
+      }
+
+      #header-content-right {
+        width: 100px;
+        height: 100%;
+      }
+
+
+  } //Header-content tag
+}  // Header Tag
