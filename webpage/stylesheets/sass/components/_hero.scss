@@ -1,1 +1,10 @@
 // *** HERO PAGE ***
+#hero {
+  width: 100vw;
+
+  #hero-content {
+    height: 25px;
+    width: $content-width;
+    background-color: #ccc;
+  }  // hero-content END
+}  // hero END
