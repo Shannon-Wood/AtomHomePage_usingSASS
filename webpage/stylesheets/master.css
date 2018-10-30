@@ -89,7 +89,7 @@ body {
   font-feature-settings: "lnum";
 }
 
-header #header-content #header-content-left ul li {
+header #header-content #header-content-left ul li, header #header-content #header-content-right ul li {
   cursor: pointer;
   user-select: none;
 }
@@ -124,17 +124,38 @@ header #header-content #header-content-left ul {
 
 header #header-content #header-content-left ul li {
   padding: 8px;
-  transition: .3s;
+  transition: 0.25s;
 }
 
 header #header-content #header-content-left ul li:hover {
-  transition: .3s;
+  transition: 0.25s;
   color: #81bf8c;
 }
 
 header #header-content #header-content-right {
-  width: 100px;
   height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header #header-content #header-content-right ul li {
+  transition: 0.25s;
+}
+
+header #header-content #header-content-right ul li:hover {
+  transition: 0.25s;
+  color: #81bf8c;
+}
+
+header #header-content #header-content-right ul li::before {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: "\f036";
+  background-color: #f00;
 }
 
 body {

@@ -1,4 +1,11 @@
+// VARIABLE INFORMATION ***********************
+
+$hover-transition-time: .25s;
+$hover-color: #81bf8c;
+
+
 // *** HEADER PARTIAL **************************
+
 
 header {
   width: 100vw;
@@ -9,45 +16,70 @@ header {
   display: flex;
   justify-content: center;
 
-#header-content{
-  width: 860px;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
+    #header-content{
+      width: 860px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
 
 
   // *** Header - LEFT SIDE **************************
 
 
-#header-content-left {
-  height: 100%;
-  display: flex;
-  align-items: center;
+        #header-content-left {
+          height: 100%;
+          display: flex;
+          align-items: center;
 
-ul {
-  display: flex;
-  justify-content: space-between;
+            ul {
+              display: flex;
+              justify-content: space-between;
 
-li {
-  padding: 8px;
-  @extend %fake-link;
-  transition: .3s;
+                li {
+                  padding: 8px;
+                  @extend %fake-link;
+                  transition: $hover-transition-time;
 
-&:hover {
-  transition: .3s;
-  color: #81bf8c;
+                &:hover {
+                  transition: $hover-transition-time;
+                  color: $hover-color;
 
-}  // hover eng-tag
-} // LI end tag
-}  // UL end tag
-} //Header-content-left end tag
+              }  // hover eng-tag
+            } // LI end tag
+          }  // UL end tag
+        } //Header-content-left end tag
 
 
 // *** Header - RIGHT SIDE **************************
 
 #header-content-right {
-width: 100px;
 height: 100%;
+display: flex;
+align-items: center;
+
+ul {
+li {
+  @extend %fake-link;
+  transition: $hover-transition-time;
+
+&:hover {
+  transition: $hover-transition-time;
+  color: $hover-color;
+}  // hover end tag
+
+&::before {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: "\f036";
+  background-color: #f00;
+}
+
+}  // header-content-right LI end tag
+}  // header-content-right UL end tag
 
 }  // header-content-right end tag
 }  // header-content end tag
