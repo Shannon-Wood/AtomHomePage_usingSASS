@@ -4,51 +4,52 @@ header {
   width: 100vw;
   height: 33px;
   padding: 5px 0;
-
-  font-size: .88em;
-
+  font-size: .9em;
   background-color: #584b4f;
-
   display: flex;
   justify-content: center;
 
-  #header-content{
-    width: 860px;
-    height: 100%;
-
-    display: flex;
-    justify-content: space-between;
-
-
-      #header-content-left {
-        height: 100%;
-        display: flex;
-        align-items: center;
-
-        ul {
-          display: flex;
-          justify-content: space-between;
+#header-content{
+  width: 860px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 
 
-          li {
-            padding: 8px;
-            @extend %fake-link;
-            transition: .3s;
-
-            &:hover {
-              transition: .3s;
-              color: #81bf8c;
-            }
-
-          } // LI end tag
-        }  // UL end tag
-      } //Header-content-left
-
-      #header-content-right {
-        width: 100px;
-        height: 100%;
-      }
+  // *** Header - LEFT SIDE ***
 
 
-  } //Header-content tag
+#header-content-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+ul {
+  display: flex;
+  justify-content: space-between;
+
+li {
+  padding: 8px;
+  @extend %fake-link;
+  transition: .3s;
+
+&:hover {
+  transition: .3s;
+  color: #81bf8c;
+
+}  // hover eng-tag
+} // LI end tag
+}  // UL end tag
+} //Header-content-left end tag
+
+
+// *** Header - RIGHT SIDE ***
+
+#header-content-right {
+width: 100px;
+height: 100%;
+
+
+}  // header-content-right end tag
+} //Header-content tag
 }  // Header Tag
