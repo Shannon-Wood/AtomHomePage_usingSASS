@@ -83,6 +83,13 @@
 		"oAP": "/template.yml",
 		"oF": 0
 		},
+	"/webpage/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/webpage/favicon.ico",
+		"oF": 0
+		},
 	"/webpage/index.html": {
 		"cB": 0,
 		"ft": 8192,
