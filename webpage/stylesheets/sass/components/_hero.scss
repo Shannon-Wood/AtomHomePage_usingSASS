@@ -1,11 +1,15 @@
 // *** HERO PAGE ***
+
 #hero {
   width: 100vw;
   @include basic-flex();
 
   #hero-content {
-    height: 25px;
     width: $content-width;
-    background-color: #ccc;
+
+    #hero-content-top {
+      width: 100%;
+
+    }  // hero-content-top END
   }  // hero-content END
 }  // hero END

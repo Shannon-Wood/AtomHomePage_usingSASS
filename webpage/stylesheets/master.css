@@ -171,9 +171,11 @@ header #header-content #header-content-right ul li svg:hover path {
 }
 
 #hero #hero-content {
-  height: 25px;
   width: 860px;
-  background-color: #ccc;
+}
+
+#hero #hero-content #hero-content-top {
+  width: 100%;
 }
 
 body {
