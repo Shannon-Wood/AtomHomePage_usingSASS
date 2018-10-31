@@ -1,5 +1,11 @@
 // *** HERO PAGE ***
 
+// LOCAL VARIABLES **********
+
+$border-style: solid 1px #4e4b4d;
+
+// HERO CONTENT ************
+
 #hero {
   width: 100vw;
   @include basic-flex();
@@ -9,9 +15,11 @@
 
     #hero-content-top {
       width: 100%;
+      @include basic-flex(space-between, flex-end);
 
         #hero-content-top-ani {
           width: 582px;
+          height: 500px;
           background-color: darken($body-color, 3%);
         }
 
@@ -19,8 +27,23 @@
           width: 228px;
           margin-left: 50px;
 
-        }  // hero-content-top-ul
+          ul {
+            height: 350px;
+            width:  228px;
+            border: $border-style;
+            border-radius: 20px;
+            li {
+              height: 25%;
+              width:  100%;
+              border-bottom: $border-style;
 
-    }  // hero-content-top END
-  }  // hero-content END
+              &:last-child{
+                border-bottom: none;
+              }
+            }
+          }
+
+        }  // hero-content-top-ul
+      }  // hero-content-top END
+    }  // hero-content END
 }  // hero END
