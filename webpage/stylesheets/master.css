@@ -165,6 +165,9 @@ header #header-content #header-content-right ul li svg:hover path {
 
 #hero {
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #hero #hero-content {

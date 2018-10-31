@@ -1,6 +1,7 @@
 // *** HERO PAGE ***
 #hero {
   width: 100vw;
+  @include basic-flex();
 
   #hero-content {
     height: 25px;
