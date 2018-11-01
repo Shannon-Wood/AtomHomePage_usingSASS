@@ -1,7 +1,7 @@
 // VARIABLE INFORMATION ***********************
 
 $hover-transition-time: .25s;
-$hover-color: #81bf8c;
+$header-hover-color: #81bf8c;
 
 
 // *** HEADER PARTIAL **************************
@@ -42,7 +42,7 @@ header {
 
                 &:hover {
                   transition: $hover-transition-time;
-                  color: $hover-color;
+                  color: $header-hover-color;
 
               }  // hover eng-tag
             } // LI end tag
@@ -69,7 +69,7 @@ header {
 
                 &:hover {
                   transition: $hover-transition-time;
-                  color: $hover-color;
+                  color: $header-hover-color;
                 }  // hover end tag
 
                 img {

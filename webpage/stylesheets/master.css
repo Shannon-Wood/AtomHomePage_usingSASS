@@ -168,6 +168,7 @@ header #header-content #header-content-right ul li svg:hover path {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: row;
 }
 
 #hero #hero-content {
@@ -179,6 +180,7 @@ header #header-content #header-content-right ul li svg:hover path {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  flex-direction: row;
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ani {
@@ -239,6 +241,7 @@ header #header-content #header-content-right ul li svg:hover path {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div img {
@@ -268,6 +271,7 @@ header #header-content #header-content-right ul li svg:hover path {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-direction: column;
 }
 
 #hero #hero-content-bottom p {
@@ -289,6 +293,7 @@ header #header-content #header-content-right ul li svg:hover path {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 #hero #hero-content-bottom ul li {
@@ -301,6 +306,55 @@ header #header-content #header-content-right ul li svg:hover path {
 }
 
 #hero #hero-content-bottom ul li a:hover {
+  color: #ebab00;
+}
+
+#sub-hero {
+  width: 100vw;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-hero #sub-hero-content {
+  width: 860px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sub-hero #sub-hero-content h1 {
+  font-size: 2.3em;
+  font-weight: 200;
+  letter-spacing: .025em;
+  color: #efdab9;
+}
+
+#sub-hero #sub-hero-content h1 span {
+  color: #78b0a0;
+}
+
+#sub-hero #sub-hero-content ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-hero #sub-hero-content ul li {
+  margin: 40px 10px 0px 10px;
+  padding: 9px 14px;
+  border-radius: 5px;
+  border: solid 1px #4e4b4d;
+  color: #e1bb50;
+  font-size: 1.15em;
+}
+
+#sub-hero #sub-hero-content ul li:hover {
   color: #ebab00;
 }
 

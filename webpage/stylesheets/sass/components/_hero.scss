@@ -1,12 +1,7 @@
 // *** HERO PAGE ***
 
-// LOCAL VARIABLES **********
-
-$border-style: solid 1px #4e4b4d;
-$hover-color: #ebab00;
 
 // HERO CONTENT ************
-
 #hero {
   width: 100vw;
   @include basic-flex();
@@ -38,8 +33,7 @@ $hover-color: #ebab00;
               height: 25%;
               width:  100%;
               border-bottom: $border-style;
-              @include basic-flex(center, center);
-              flex-direction: column;
+              @include basic-flex(center, center, column);
 
               h1 {
                 font-size: 1.4em;
@@ -103,7 +97,7 @@ $hover-color: #ebab00;
 
     #hero-content-bottom {
       width: 100%;
-      @include basic-flex (center, center);
+      @include basic-flex (center, center, column);
       flex-direction: column;
 
       p {
