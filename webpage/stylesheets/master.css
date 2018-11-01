@@ -221,6 +221,43 @@ header #header-content #header-content-right ul li svg:hover path {
   color: #eed9b788;
 }
 
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li span a:hover {
+  color: #ebab00;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a {
+  height: 70%;
+  width: 85%;
+  margin-bottom: 2px;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div {
+  height: 100%;
+  width: 100%;
+  background-color: #fed053;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div img {
+  width: 14px;
+  height: 16px;
+  margin: 2px 10px 0 0;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div p {
+  color: #333233;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: .03em;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div:hover {
+  background-color: #ebab00;
+}
+
 #hero #hero-content #hero-content-top #hero-content-top-ul ul li:last-child {
   border-bottom: none;
 }
@@ -232,4 +269,13 @@ body {
   font-size: 100%;
   color: #efeae1;
   background-color: #333233;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
 }
