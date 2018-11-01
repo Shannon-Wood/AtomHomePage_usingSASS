@@ -262,6 +262,48 @@ header #header-content #header-content-right ul li svg:hover path {
   border-bottom: none;
 }
 
+#hero #hero-content-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#hero #hero-content-bottom p {
+  color: #766e63aa;
+  font-size: .8em;
+}
+
+#hero #hero-content-bottom p a {
+  color: #766e63;
+}
+
+#hero #hero-content-bottom p a:hover {
+  color: #ebab00;
+}
+
+#hero #hero-content-bottom ul {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero #hero-content-bottom ul li {
+  color: #8d8273;
+  font-size: .9em;
+}
+
+#hero #hero-content-bottom ul li:first-child {
+  margin-right: 32px;
+}
+
+#hero #hero-content-bottom ul li a:hover {
+  color: #ebab00;
+}
+
 body {
   width: 100vw;
   height: 100vh;

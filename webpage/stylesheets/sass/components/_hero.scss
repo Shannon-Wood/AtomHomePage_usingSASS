@@ -93,11 +93,55 @@ $hover-color: #ebab00;
 
               &:last-child{
                 border-bottom: none;
-              }
+              }  // last-child END
             }
           }
 
         }  // hero-content-top-ul
       }  // hero-content-top END
     }  // hero-content END
+
+    #hero-content-bottom {
+      width: 100%;
+      @include basic-flex (center, center);
+      flex-direction: column;
+
+      p {
+        color: #766e63aa;
+        font-size: .8em;
+
+        a {
+          color: #766e63;
+
+          &:hover {
+          color: $hover-color;
+
+          } // hover END
+        } // <a> END
+      }  // <p> END
+
+      ul {
+        width: 100%;
+        margin-top: 50px;
+        @include basic-flex (center, center)
+
+        li {
+          color: #8d8273;
+          font-size: .9em;
+
+          &:first-child{
+            margin-right: 32px;
+          }  // first-child END
+
+          a {
+            &:hover {
+              color: $hover-color;
+            }
+          }
+        } // li END
+
+
+      }  // ul END
+
+    } // hero-content-bottom END
 }  // hero END
