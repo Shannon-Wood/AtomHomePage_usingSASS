@@ -1,0 +1,90 @@
+// VARIABLE INFORMATION ***********************
+
+$hover-transition-time: .25s;
+$header-hover-color: #81bf8c;
+
+
+// *** HEADER PARTIAL **************************
+
+
+header {
+  width: 100vw;
+  height: 33px;
+  padding: 5px 0;
+  font-size: .9em;
+  background-color: #584b4f;
+  display: flex;
+  justify-content: center;
+
+    #header-content{
+      width: $content-width;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+
+
+  // *** Header - LEFT SIDE **************************
+
+
+        #header-content-left {
+          height: 100%;
+          display: flex;
+          align-items: center;
+
+            ul {
+              display: flex;
+              justify-content: space-between;
+
+                li {
+                  padding: 8px;
+                  @extend %fake-link;
+                  transition: $hover-transition-time;
+
+                &:hover {
+                  transition: $hover-transition-time;
+                  color: $header-hover-color;
+
+              }  // hover eng-tag
+            } // LI end tag
+          }  // UL end tag
+        } //Header-content-left end tag
+
+
+// *** Header - RIGHT SIDE **************************
+
+        #header-content-right {
+          height: 100%;
+          display: flex;
+          align-items: center;
+
+            ul {
+              width: 67px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+                li {
+                  @extend %fake-link;
+                  transition: $hover-transition-time;
+
+                &:hover {
+                  transition: $hover-transition-time;
+                  color: $header-hover-color;
+                }  // hover end tag
+
+                img {
+                  position: relative;
+                  top: 2px;
+                }
+                svg:hover path {
+                    fill: #b8b8b8;
+                  }
+
+
+
+}  // header-content-right LI end tag
+}  // header-content-right UL end tag
+
+}  // header-content-right end tag
+}  // header-content end tag
+}  // header end tag
