@@ -360,10 +360,14 @@ header #header-content #header-content-right ul li svg:hover path {
 
 footer {
   width: 100vw;
+  padding: 205px 0px;
+  border-top: 1px solid #1a191a;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  background: url("media/imgs/rocket.svg") no-repeat #2c2a2b;
+  background-position: calc(50% + 380px) 60px;
 }
 
 footer #footer-content {
