@@ -418,7 +418,7 @@ footer #footer-content #footer-content-right #footer-content-right-uls {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding-top: 75px;
+  padding-top: 80px;
 }
 
 footer #footer-content #footer-content-right #footer-content-right-uls ul {
@@ -436,6 +436,41 @@ footer #footer-content #footer-content-right #footer-content-right-uls ul li a {
 
 footer #footer-content #footer-content-right #footer-content-right-uls ul li a:hover {
   color: #ebab00;
+}
+
+#sub-footer {
+  height: 55px;
+  width: 100vw;
+  background-color: #efeae1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-footer #sub-footer-content {
+  width: 860px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-footer #sub-footer-content #sub-footer-content-left ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-footer #sub-footer-content #sub-footer-content-left ul li a {
+  color: #574c4f;
+  padding-right: 20px;
+}
+
+#sub-footer #sub-footer-content #sub-footer-content-right img {
+  padding-top: 3px;
 }
 
 body {

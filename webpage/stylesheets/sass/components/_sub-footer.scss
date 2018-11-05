@@ -1,0 +1,36 @@
+// ******** SUB-FOOTER ********
+
+#sub-footer {
+  height: 55px;
+  width: 100vw;
+  background-color: #efeae1;
+  @include basic-flex (center, center);
+
+  #sub-footer-content {
+    width: $content-width;
+    height: 100%;
+    @include basic-flex (space-between, center)
+
+    #sub-footer-content-left {
+      ul {
+        @include basic-flex (space-between, center)
+
+        li {
+
+          a {
+            color: #574c4f;
+            padding-right: 20px;
+            
+          }  // <a> END
+        }  // li END
+      }  // ul END
+    } //sub-footer-content-left END
+
+    #sub-footer-content-right {
+      img {
+        padding-top: 3px;
+
+      }  // img END
+    }  // sub-footer-content-right END
+  }  // sub-footer-content END
+}  // sub-footer END

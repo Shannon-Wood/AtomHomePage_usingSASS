@@ -45,17 +45,21 @@ background-position: calc(50% + 380px) 60px;
 
         #footer-content-right-uls {
           @include basic-flex (center, center)
-          padding-top: 75px;
+          padding-top: 80px;
 
           ul {
             color: $atom-tan;
             line-height: 1.7em;
+            
             li {
               padding-right: 30px;
+
               a {
                 color: $button-color;
+
                 &:hover{
                   color: $hover-color;
+
                 }  // hover END
               } // <a> END
             }  // li END
