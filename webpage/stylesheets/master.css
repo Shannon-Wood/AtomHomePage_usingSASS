@@ -398,13 +398,44 @@ footer #footer-content #footer-content-left div {
   font-weight: 500;
 }
 
-footer #footer-content #footer-content-left div :hover {
+footer #footer-content #footer-content-left div:hover {
   background-color: #ebab00;
 }
 
 footer #footer-content #footer-content-right {
   width: 50%;
   height: 295px;
+  padding-left: 75px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+footer #footer-content #footer-content-right #footer-content-right-uls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 75px;
+}
+
+footer #footer-content #footer-content-right #footer-content-right-uls ul {
+  color: #efdab9;
+  line-height: 1.7em;
+}
+
+footer #footer-content #footer-content-right #footer-content-right-uls ul li {
+  padding-right: 30px;
+}
+
+footer #footer-content #footer-content-right #footer-content-right-uls ul li a {
+  color: #fed053;
+}
+
+footer #footer-content #footer-content-right #footer-content-right-uls ul li a:hover {
+  color: #ebab00;
 }
 
 body {

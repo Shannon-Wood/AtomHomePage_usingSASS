@@ -1,46 +1,66 @@
-// *****  FOOTER  *****
+// ***************  FOOTER  ***************
 
 footer {
-  width: 100vw;
-  padding: 205px 0px;
-  border-top: 1px solid #1a191a;
-  @include basic-flex (center, center);
-  background: url("media/imgs/rocket.svg") no-repeat #2c2a2b;
-  background-position: calc(50% + 380px) 60px;
-  // background-position: 80% -90%;
+width: 100vw;
+padding: 205px 0px;
+border-top: 1px solid #1a191a;
+@include basic-flex (center, center);
+background: url("media/imgs/rocket.svg") no-repeat #2c2a2b;
+background-position: calc(50% + 380px) 60px;
 
     #footer-content {
-      width: $content-width;
-      @include basic-flex (center, center);
+    width: $content-width;
+    @include basic-flex (center, center);
 
         #footer-content-left {
-          width: 50%;
-          height: 295px;
-          padding-right: 75px;
-          box-sizing: border-box;
-          @include basic-flex (space-between, flex-start, column)
+        width: 50%;
+        height: 295px;
+        padding-right: 75px;
+        box-sizing: border-box;
+        @include basic-flex (space-between, flex-start, column);
 
-          div {
-          width: fit-content;
-          color: $body-color;
-          background-color: $button-color;
-          // padding: 8px 16px;
-          padding: .5em 1em;
-          border-radius: $button-radius;
-          font-weight: 500;
+            div {
+            width: fit-content;
+            color: $body-color;
+            background-color: $button-color;
+            // padding: 8px 16px;
+            padding: .5em 1em;
+            border-radius: $button-radius;
+            font-weight: 500;
 
-          :hover {
+            &:hover {
             background-color: $hover-color;
-          }
-        }
+            }  //hover END
 
+          }  //div END
         } // footer-content-left END
 
 
         #footer-content-right {
-          width: 50%;
-          height: 295px;
+        width: 50%;
+        height: 295px;
+        padding-left: 75px;
+        box-sizing: border-box;
+        @include basic-flex (flex-start, flex-start, column);
 
-    } // footer-content-right END
-  }  // footer-content END
+        #footer-content-right-uls {
+          @include basic-flex (center, center)
+          padding-top: 75px;
+
+          ul {
+            color: $atom-tan;
+            line-height: 1.7em;
+            li {
+              padding-right: 30px;
+              a {
+                color: $button-color;
+                &:hover{
+                  color: $hover-color;
+                }  // hover END
+              } // <a> END
+            }  // li END
+          }  // ul END
+        }  // footer-content-right-uls
+      } // footer-content-right END
+    }  // footer-content END
 }  // footer END
