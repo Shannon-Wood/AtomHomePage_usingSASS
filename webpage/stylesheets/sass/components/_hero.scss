@@ -1,7 +1,7 @@
 // *** HERO PAGE ***
 
 
-// HERO CONTENT ************
+// HERO CONTENT ***************************************
 #hero {
 width: 100vw;
 @include basic-flex();
@@ -61,8 +61,8 @@ width: 100vw;
             div {
             height: 100%;
             width: 100%;
-            background-color: #fed053;
-            border-radius: 5px;
+            background-color: $button-color;
+            border-radius: $button-radius;
             @include basic-flex (center, center);
 
               img {

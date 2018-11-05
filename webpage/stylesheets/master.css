@@ -378,6 +378,35 @@ footer #footer-content {
   flex-direction: row;
 }
 
+footer #footer-content #footer-content-left {
+  width: 50%;
+  height: 295px;
+  padding-right: 75px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+footer #footer-content #footer-content-left div {
+  width: fit-content;
+  color: #333233;
+  background-color: #fed053;
+  padding: .5em 1em;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+footer #footer-content #footer-content-left div :hover {
+  background-color: #ebab00;
+}
+
+footer #footer-content #footer-content-right {
+  width: 50%;
+  height: 295px;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -394,4 +423,19 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 200;
+  letter-spacing: .025em;
+  color: #efdab9;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: .025em;
+  color: #efdab9;
+  line-height: 1.45;
 }
