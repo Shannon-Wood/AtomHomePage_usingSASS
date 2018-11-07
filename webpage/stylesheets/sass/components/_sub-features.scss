@@ -1,0 +1,108 @@
+// *****************   SUB-FEATURES   *****************
+
+//  ****** LOCAL VARIABLES  ******
+$row-gap: 100px;
+$column-gap: 5%;
+
+
+
+#sub-features {
+  width: 100vw;
+  @include basic-flex (center, center);
+  padding: 210px 0px;
+
+  a {
+    color: $button-color;
+    &:hover {
+      color: $hover-color;
+    }
+  }
+
+
+  #sub-features-content {
+    width: $content-width;
+    @include basic-flex (center, center, column);
+
+    #sub-features-expectations {
+      width: 100%;
+
+      h2 {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 50px;
+
+      }  //h2
+
+      #expectations-grid {
+        width: 100%;
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        grid-gap: $row-gap $column-gap;
+
+        div:nth-child(1) {
+          @include grid-item ('SF_1.png');
+        }  // div
+
+        div:nth-child(2) {
+          @include grid-item ('SF_2.png');
+        }  // div
+
+        div:nth-child(3) {
+          @include grid-item ('SF_3.png');
+        }  // div
+
+        div:nth-child(4) {
+          @include grid-item ('SF_4.png');
+        }  // div
+
+        div:nth-child(5) {
+          @include grid-item ('SF_5.png');
+        }  // div
+
+        div:nth-child(6) {
+          @include grid-item ('SF_6.png');
+        }  // div
+
+      }  //expectations-grid END
+    }  //sub-features-expectations END
+
+    #sub-features-customize {
+      width: 100%;
+
+      h2 {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 50px;
+        margin-top: 100px;
+
+      }  //h2
+
+
+      #customize-grid {
+        width: 100%;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        grid-gap: $row-gap $column-gap;
+
+
+        div:nth-child(1) {
+          @include grid-item ('SF_7.png');
+        }  // div
+
+        div:nth-child(2) {
+          @include grid-item ('SF_8.png');
+        }  // div
+
+        div:nth-child(3) {
+          @include grid-item ('SF_9.png');
+        }  // div
+
+        div:nth-child(4) {
+          @include grid-item ('SF_10.png');
+        }  // div
+
+      }
+
+    }  //sub-features-customize END
+  }  //sub-features-content END
+}  //sub-features END
