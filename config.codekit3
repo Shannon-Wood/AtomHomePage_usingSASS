@@ -290,21 +290,21 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/webpage/stylesheets/media/imgs/kitty_and_planets_orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/webpage/stylesheets/media/imgs/kitty_and_planets_orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"/webpage/stylesheets/media/imgs/kitty_green.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/webpage/stylesheets/media/imgs/kitty_green.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/kittyf3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/kittyf3.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
