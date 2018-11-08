@@ -107,6 +107,136 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/webpage/stylesheets/media/imgs/ani/atom-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/atom-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/octocat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/octocat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-10.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-10.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-11.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-11.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-6.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-6.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-7.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-7.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-8.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-8.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/ring-9.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/ring-9.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/webpage/stylesheets/media/imgs/atom-door-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -132,6 +262,69 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/webpage/stylesheets/media/imgs/download-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/features_polygons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/features_polygons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/features_web1.png": {
+		"ft": 32768,
+		"iS": 102630,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/features_web1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/features_web2.png": {
+		"ft": 32768,
+		"iS": 192198,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/features_web2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/features_web3.png": {
+		"ft": 32768,
+		"iS": 109922,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/features_web3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/kitty_green.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/kitty_green.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/kittyf3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/kittyf3.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -257,6 +450,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/webpage/stylesheets/media/imgs/teletype-bkrnd.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/teletype-bkrnd.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/webpage/stylesheets/media/imgs/with-love-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -273,6 +476,19 @@
 		"oA": 0,
 		"oAP": "/webpage/stylesheets/media/vids/.temp",
 		"oF": 0
+		},
+	"/webpage/stylesheets/sass/components/_features.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/components/_features.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/webpage/stylesheets/sass/components/_footer.scss": {
 		"aP": 0,
@@ -296,6 +512,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/webpage/stylesheets/sass/components/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/webpage/stylesheets/sass/components/_hero-ani.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/components/_hero-ani.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

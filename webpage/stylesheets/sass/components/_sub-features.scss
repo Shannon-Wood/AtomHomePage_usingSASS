@@ -11,12 +11,7 @@ $column-gap: 5%;
   @include basic-flex (center, center);
   padding: 210px 0px;
 
-  a {
-    color: $button-color;
-    &:hover {
-      color: $hover-color;
-    }
-  }
+  @extend %text-link;
 
 
   #sub-features-content {
@@ -100,9 +95,7 @@ $column-gap: 5%;
         div:nth-child(4) {
           @include grid-item ('SF_10.png');
         }  // div
-
-      }
-
+      }  // #customize-grid END
     }  //sub-features-customize END
   }  //sub-features-content END
 }  //sub-features END
