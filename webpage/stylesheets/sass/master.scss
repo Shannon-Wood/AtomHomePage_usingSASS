@@ -10,8 +10,12 @@
 @import "components/header";
 @import "components/hero";
 @import "components/sub-hero";
+@import "components/features";
+@import "components/sub-features";
 @import "components/footer";
 @import "components/sub-footer";
+
+
 
 
 // --- MASTER CONTROLS ---
@@ -21,6 +25,7 @@ body {
   height: 100vh;
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
   font-size: 100%;
+  overflow-x: hidden;
 
   color: #efeae1;
   background-color: $body-color;
@@ -35,6 +40,16 @@ a {
       } // hover END
 } // <a> END
 
+p {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: .025em;
+  color: $atom-tan;
+  line-height: 1.45;
+  width: 350px;
+  margin: 16px 0px;
+}
+
 h2 {
   font-size: 2em;
   font-weight: 200;
@@ -42,10 +57,9 @@ h2 {
   color: $atom-tan;
 }
 
-p {
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: .025em;
+h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: .02em;
   color: $atom-tan;
-  line-height: 1.45;
 }
