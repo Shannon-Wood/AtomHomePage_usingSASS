@@ -37,10 +37,13 @@
 
 
 #feature-2-img {
-  width: 50%;
-  overflow: hidden;
+  left: 50%;
+  margin-left: 40px;
+  // overflow-x: hidden;
 
     img {
+      position: relative;
+      left: 5px;
     filter: brightness(0.7) contrast(0.8) sepia(1) hue-rotate(160deg) saturate(2.5);
 
     &:hover {

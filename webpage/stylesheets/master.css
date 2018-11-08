@@ -205,18 +205,18 @@ header #header-content #header-content-right ul li svg:hover path {
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ani {
-  width: 582px;
+  width: 480px;
   height: 500px;
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ani #octocat {
   float: left;
   position: relative;
-  top: 60px;
-  left: -30px;
-  animation: bob 1s infinite;
+  top: 90px;
+  left: -90px;
+  animation: bob 2s infinite;
   animation-direction: alternate;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles {
@@ -228,7 +228,7 @@ header #header-content #header-content-right ul li svg:hover path {
 #hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img {
   position: absolute;
   left: 60%;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
 }
 
@@ -296,7 +296,7 @@ header #header-content #header-content-right ul li svg:hover path {
     transform: translatey(0px);
   }
   100% {
-    transform: translatey(16px);
+    transform: translatey(20px);
   }
 }
 
@@ -498,11 +498,13 @@ header #header-content #header-content-right ul li svg:hover path {
 }
 
 #feature-2 #feature-2-img {
-  width: 50%;
-  overflow: hidden;
+  left: 50%;
+  margin-left: 40px;
 }
 
 #feature-2 #feature-2-img img {
+  position: relative;
+  left: 5px;
   filter: brightness(0.7) contrast(0.8) sepia(1) hue-rotate(160deg) saturate(2.5);
 }
 
@@ -830,6 +832,7 @@ body {
   height: 100vh;
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
   font-size: 100%;
+  overflow-x: hidden;
   color: #efeae1;
   background-color: #333233;
 }

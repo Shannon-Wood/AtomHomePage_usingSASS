@@ -25,6 +25,7 @@ body {
   height: 100vh;
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
   font-size: 100%;
+  overflow-x: hidden;
 
   color: #efeae1;
   background-color: $body-color;
